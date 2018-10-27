@@ -23,7 +23,7 @@ namespace ForecastProcessor
 
         [FunctionName("GetForecasts")]
         public static async Task Run(
-            [QueueTrigger("coordinates", Connection = "QueueConnectionString")]Coordinates[] items,         // collection of coordinates in the request
+            [QueueTrigger("%QueueName%", Connection = "QueueConnectionString")]Coordinates[] items,         // collection of coordinates in the request
             [CosmosDB(
                 databaseName: "weatherDatabase",
                 collectionName: "weatherCollection",
