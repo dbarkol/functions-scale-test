@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForecastProcessor", "Foreca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForecastGenerator", "ForecastGenerator\ForecastGenerator.csproj", "{6F381DE0-1731-4274-B507-F4B448CC9077}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FillCoordinates", "FillCoordinates\FillCoordinates.csproj", "{E5ABA0CF-5802-4FAD-9105-C205B331352F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FillCoordinates", "FillCoordinates\FillCoordinates.csproj", "{E5ABA0CF-5802-4FAD-9105-C205B331352F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

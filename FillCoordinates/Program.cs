@@ -86,7 +86,6 @@ namespace FillCoordinates
             // This function will add 100 entities at a time. It will
             // also update the partition key for each 1000 records so that
             // they can be read at once.
-
             var totalCoordinates = 0;
             var partitionIndex = 0;
             for (var c = 0; c < 1000; c++)
