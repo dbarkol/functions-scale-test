@@ -75,7 +75,7 @@ namespace ForecastGenerator
 
         #endregion
 
-        #region Activitie Functions
+        #region Activity Functions
 
         /// <summary>
         /// This activity function retrieves a list of coordinates from a table and 
